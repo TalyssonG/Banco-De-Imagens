@@ -1,0 +1,124 @@
+@media(max-width:1092px){
+    
+   
+
+    /*foto*/
+
+    #ilus{
+        margin:auto;
+        margin-top: 260px;
+        margin-left: -65px;
+     
+
+    }
+    /*foto*/
+    #header{
+       
+        top: -110px;
+        margin-right: 260px;
+        margin:auto;
+        margin-top: 460px;
+
+         
+    }
+    /*logo*/
+    header #logo{
+        position: absolute;
+        margin-bottom: -200px;
+        
+    }
+
+   
+    footer #image {
+       position: absolute;
+       margin-bottom: -530px;
+
+    }
+    #arrow2{
+       position: absolute;
+       margin-bottom: -550px;
+
+    }
+
+    #cadastro{
+        position: absolute;
+        margin-left: 518px;
+        margin-bottom: -530px;
+    }
+
+  #arrow{
+         position: absolute;
+         margin-left: 678px;
+         margin-bottom: -550px     
+    }
+}
+
+/*Mobile */
+
+@media (max-width:380px) {
+   body{
+       margin-left: 50px;
+       
+   }
+    #logo{
+        margin-top: 20px;
+        margin:auto;
+        
+       
+    }
+
+    #ilus{
+        margin-top: 340px;
+        margin-left: -40px;
+        
+    }
+     #title h1 p{
+      margin-top: 520px;
+      font-size: 120px;
+      display:flex;
+      flex-direction: column;
+       
+    }
+
+    /*.principal {
+        position: absolute;
+        margin-left: 700px;
+        margin-top: 520px;
+        font-size:40px;
+         
+    }
+    */
+
+    #image{
+      
+       top: 1900px;
+       margin-right: -80px;
+       font-size: 40px ;
+    }
+
+    #arrow2{
+       top: 1940px;
+       margin-left: 200px;
+       font-size: 40px ;
+       padding:12px;
+    }
+ 
+    #cadastro{
+      
+        top: 1900px;
+        margin-right: -80px;
+        font-size: 40px ;
+     }
+ 
+     #arrow{
+        top: 1940px;
+        margin-left: 720px;
+        font-size: 40px ;
+        padding:12px;
+     }
+ 
+
+
+
+
+}
