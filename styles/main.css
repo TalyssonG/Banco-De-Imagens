@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-page-color: rgb(214, 214, 214);
+    --text-primary-color: rgb(108, 0, 96);
+    --text-primary-color-hover: rgb(68, 0, 60);
+    --background-content: rgb(240, 240, 240);
+}
+
+html {
+    font-size: 65.5%;
+}
+
+body {
+    background: var(--background-page-color);
+    font-size: 1.6rem;
+}
+
+a {
+    color: var(--text-primary-color);
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+
+    display: flex;
+}
+
+a:hover {
+    color: var(--text-primary-color-hover);
+}
+
+a span {
+    width: 1.6rem;
+    height: 1.6rem;
+    background: url("../icons/left-arrow.svg");
+    display: flex;
+    margin-right: 10px;
+}
+
+header#header {
+    max-width: 1000px;
+    width: 70vw;
+    height: 80px;
+
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main#content {
+    max-width: 1000px;
+    width: 70vw;
+    padding: 20px;
+    background: var(--background-content);
+    margin: 20px auto;
+
+    border-radius: 10px;
+}
+
+main#content form h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+    color: var(--text-primary-color);
+
+    margin: 20px 30px 0px;
+}
+
+main#content form div#file-background {
+    width: 50%;
+    padding: 20px;
+    background: rgba(163, 47, 149, 0.637);
+    border-radius: 20px;
+    margin: 40px auto 56px;
+}
+
+main#content form div#dashed {
+    width: 100%;
+    height: 150px;
+    border: 1px dashed #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div#dashed span {
+    width: 5rem;
+    height: 5rem;
+    background: url("../icons/file.svg");
+    display: flex;
+}
+
+div#dashed p {
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+}
+
+main#content form input[type="file"] {
+    display: none;
+}
+
+main#content form div#fields-group {
+    width: calc(100% - 60px);
+    padding: 10px;
+    margin: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div#fields-group h3 {
+    font-size: 1.4rem;
+    font-family: "Roboto", sans-serif;
+    color: var(--text-primary-color);
+}
+
+div#fields-group div.field {
+    width: 47%;
+}
+
+div#fields-group input.field-input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 10px;
+    background: #e780db;
+    font-size: 1.5rem;
+    padding-left: 20px;
+    color: rgb(29, 29, 29);
+}
+
+div#buttoms {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+div#buttoms input[type="reset"] {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(196, 0, 0);
+    color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+div#buttoms input[type="reset"]:hover {
+    transform: scale(0.9);
+    background: rgb(138, 0, 0);
+}
+
+div#buttoms input[type="submit"] {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(39, 196, 0);
+    color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+div#buttoms input[type="submit"]:hover {
+    transform: scale(0.9);
+    background-color: rgb(30, 151, 0);
+}
+
