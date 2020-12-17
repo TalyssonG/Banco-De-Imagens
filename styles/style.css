@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(57, 16, 73);
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    font-family: nunito;
+    position: relative;
+    top: 500px;
+    margin-left: 200px;
+}
+
+.principal {
+    color: white;
+    position: relative;
+    top: 470px;
+    margin-left: 200px;
+    font-size: 30px;
+}
+
+#logo {
+    position: absolute;
+    top: -200px;
+}
+
+#ilus {
+    max-width: 1080px;
+    max-height: 1080px;
+    position: absolute;
+    margin-right: 200px;
+    top: -70px;
+    margin-left: 930px;
+}
+
+#cadastro {
+    color: white;
+    font-family: nunito;
+    position: absolute;
+    margin-left: 1630px;
+    bottom: 230px;
+    font-size: 25px;
+}
+
+#arrow {
+    position: absolute;
+    margin-left: 1790px;
+    bottom: 245px;
+    background-color: #20fa4f;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#arrow2 {
+    position: absolute;
+    margin-left: 220px;
+    bottom: 245px;
+    background-color: #00ff36;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#image {
+    color: white;
+    font-family: nunito;
+    position: absolute;
+    margin-left: 280px;
+    bottom: 230px;
+    font-size: 25px;
+}
