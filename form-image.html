@@ -26,12 +26,14 @@
                         <span></span>
                         <p>Click aqui para escolher uma imagem.</p>
                     </div>
+
+                    <img id="output">
                 </div>
             </label>
 
-            <input type="file" name="image" id="image-input">
+            <input type="file" name="image" id="image-input" onchange="loadFile(event)" accept="image/png, image/jpeg">
             
-            <h2>A imagem não é sua:</h2>
+            <h2>A imagem não é sua</h2>
 
             <div id="fields-group">
                 <div class="field">
@@ -51,6 +53,20 @@
             </div>
         </form>
     </main>
+
+    <script>
+        function loadFile(event) {
+            var render = new FileReader()
+            render.onload = function() {
+                var output = document.getElementById("output")
+                output.src = render.result
+                document.getElementById("dashed").style.display = "none"
+            }
+
+            render.readAsDataURL(event.target.files[0])
+        }
+        
+    </script>
 
 </body>
 </html>
