@@ -1,52 +1,59 @@
 body {
     zoom: 0;
     background-color: #290636;
+   
+
 }
 
 h1 {
     color: white;
-    font-size: 60px;
+    font-size: 50px;
     font-family: nunito;
-    position: relative;
-    top: 500px;
-    margin-left: 200px;
+    position: absolute;
+    top: 320px;
+    margin-left: 100px;
+   
 }
 
-.principal {
+/*.principal {
     color: white;
     position: relative;
     top: 470px;
     margin-left: 200px;
     font-size: 30px;
-}
+}*/
 
 #logo {
     position: absolute;
-    top: -200px;
+    top: -300px;
+    margin-left: -100px;
+  
 }
 
 #ilus {
-    max-width: 1080px;
-    max-height: 1080px;
+    max-width: 680px;
+    max-height: 680px;
     position: absolute;
-    margin-right: 200px;
-    top: -70px;
-    margin-left: 930px;
+    margin-right: -200px;
+    top: 10px;
+    margin-left: 680px;
 }
 
 #cadastro {
     color: white;
     font-family: nunito;
     position: absolute;
-    margin-left: 1630px;
-    bottom: 230px;
+    margin-left: 530px;
+    bottom: 80px;
     font-size: 25px;
+    display: inline-block;
+
 }
 
 #arrow {
     position: absolute;
-    margin-left: 1750px;
-    bottom: 245px;
+    margin-left: 650px;
+    bottom: 100px;
     background-color: #20fa4f;
     width: 30px;
     height: 30px;
@@ -58,7 +65,7 @@ h1 {
 #arrow2 {
     position: absolute;
     margin-left: 220px;
-    bottom: 245px;
+    bottom: 100px;
     background-color: #00ff36;
     width: 30px;
     height: 30px;
@@ -72,7 +79,7 @@ h1 {
     font-family: nunito;
     position: absolute;
     margin-left: 280px;
-    bottom: 230px;
+    bottom: 80px;
     font-size: 25px;
 }
 
