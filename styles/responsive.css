@@ -58,6 +58,7 @@
 @media (max-width:700px) {
    body{
        margin-left: 50px;
+       zoom: 0;
        
    }
     #logo{

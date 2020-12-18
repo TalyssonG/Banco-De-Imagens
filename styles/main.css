@@ -21,7 +21,7 @@ body {
 }
 
 a {
-    color: var(--text-primary-color);
+    color: #290636;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
@@ -31,7 +31,7 @@ a {
 }
 
 a:hover {
-    color: var(--text-primary-color-hover);
+    color: #290636;
 }
 
 a span {
@@ -39,7 +39,9 @@ a span {
     height: 1.6rem;
     background: url("../icons/left-arrow.svg");
     display: flex;
+    color:white;
     margin-right: 10px;
+    
 }
 
 header#header {
@@ -67,7 +69,7 @@ main#content form h2 {
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     font-size: 2.4rem;
-    color: var(--text-primary-color);
+    color: #290636;
 
     margin: 20px 30px 0px;
 }
@@ -75,7 +77,7 @@ main#content form h2 {
 main#content form div#file-background {
     width: 50%;
     padding: 20px;
-    background: rgba(163, 47, 149, 0.637);
+    background: #290636;
     border-radius: 20px;
     margin: 40px auto 56px;
 }
@@ -83,7 +85,7 @@ main#content form div#file-background {
 main#content form div#dashed {
     width: 100%;
     height: 150px;
-    border: 1px dashed #000;
+    border: 1px dashed white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,12 +97,16 @@ div#dashed span {
     height: 5rem;
     background: url("../icons/file.svg");
     display: flex;
+    
+    
+    
 }
 
 div#dashed p {
     margin-top: 10px;
     font-family: "Roboto", sans-serif;
     font-size: 1.4rem;
+    color:white;
 }
 
 main#content form input[type="file"] {
@@ -118,7 +124,7 @@ main#content form div#fields-group {
 div#fields-group h3 {
     font-size: 1.4rem;
     font-family: "Roboto", sans-serif;
-    color: var(--text-primary-color);
+    color: #290636;
 }
 
 div#fields-group div.field {
@@ -132,10 +138,10 @@ div#fields-group input.field-input {
     border-radius: 10px;
     outline: none;
     margin-top: 10px;
-    background: #e780db;
+    background: rgb(216, 214, 214);
     font-size: 1.5rem;
     padding-left: 20px;
-    color: rgb(29, 29, 29);
+    color: #1d1d1d;
 }
 
 div#buttoms {
@@ -163,7 +169,7 @@ div#buttoms input[type="reset"]:hover {
 div#buttoms input[type="submit"] {
     width: 150px;
     height: 40px;
-    background-color: rgb(39, 196, 0);
+    background-color: #20fa4f;
     color: rgb(240, 240, 240);
     border: none;
     border-radius: 10px;
@@ -172,7 +178,7 @@ div#buttoms input[type="submit"] {
 
 div#buttoms input[type="submit"]:hover {
     transform: scale(0.9);
-    background-color: rgb(30, 151, 0);
+    background-color:#20fa4f;
 }
 
 @media (max-width: 768px) {

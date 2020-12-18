@@ -1,4 +1,5 @@
 body {
+    zoom: 0;
     background-color: #290636;
 }
 
@@ -44,7 +45,7 @@ h1 {
 
 #arrow {
     position: absolute;
-    margin-left: 1790px;
+    margin-left: 1750px;
     bottom: 245px;
     background-color: #20fa4f;
     width: 30px;
