@@ -56,19 +56,6 @@
 
     <script src="script.js"></script>
 
-    <script>
-        function loadFile(event) {
-            var render = new FileReader()
-            render.onload = function() {
-                var output = document.getElementById("output")
-                output.src = render.result
-                document.getElementById("dashed").style.display = "none"
-            }
-
-            render.readAsDataURL(event.target.files[0])
-        }
-        
-    </script>
 
 </body>
 </html>

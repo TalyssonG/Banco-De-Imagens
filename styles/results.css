@@ -18,7 +18,8 @@ body {
 div#top {
     width: 100vw;
     height: 80px;
-    background: #000;
+    background-color: #290636;
+   
 }
 
 header#header img {
@@ -42,6 +43,7 @@ div#pes form {
     display: flex;
 }
 
+
 div#pes form input[type="search"] {
     width: 100%;
     height: 35px;
@@ -50,20 +52,45 @@ div#pes form input[type="search"] {
     outline: none;
     font-family: Arial;
     padding-left: 10px;
+
 }
 
 div#pes form button {
     border: none;
-    background: #00ff36;
+    background: #20fa4f ;
     margin-left: -10px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     width: 50px;
     height: 35px;
     outline: none;
+   
 }
 
 div#pes form button img {
     width: 20px;
     height: 20px;
+}
+
+
+.voltar {
+    position: absolute;
+    margin-left: 980px;
+    bottom: 615px;
+    top: 20px;
+    width: 60px;
+    height: 50px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+
+#vol{
+    position: absolute;
+    font-size: 22px;
+    font-family: nunito;
+    top: -20px;
+    color:white;
+    margin-left: -69px;
 }
