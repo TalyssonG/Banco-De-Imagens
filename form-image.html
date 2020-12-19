@@ -33,7 +33,7 @@
 
             <input type="file" name="image" id="image-input" onchange="loadFile(event)" accept="image/png, image/jpeg">
             
-            <h2>A imagem não é sua</h2>
+            <h2>Informaçoes da imagem:</h2>
 
             <div id="fields-group">
                 <div class="field">
@@ -42,8 +42,8 @@
                 </div>
 
                 <div class="field">
-                    <h3>Link da imagem:</h3>
-                    <input required type="url" name="urlImage" class="field-input">
+                    <h3>Nome da imagem:</h3>
+                    <input required type="text" name="urlImage" class="field-input">
                 </div>
             </div>
 
@@ -54,9 +54,8 @@
         </form>
     </main>
 
-<<<<<<< HEAD
     <script src="script.js"></script>
-=======
+
     <script>
         function loadFile(event) {
             var render = new FileReader()
@@ -70,7 +69,6 @@
         }
         
     </script>
->>>>>>> 9fe39c2461ac0dffd3b218c61167ef2e64dcf1ec
 
 </body>
 </html>
