@@ -94,3 +94,53 @@ div#pes form button img {
     color:white;
     margin-left: -69px;
 }
+
+
+@media(max-width:1092px){
+    div#top{
+        width:1710px;
+        height:600px;
+
+    }
+
+    div#pes form input[type="search"] {
+        width: 1200px;
+        height: 85px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        outline: none;
+        font-family: Arial;
+        padding-left: 60px;
+        margin-left: -300px;
+   
+      
+    
+    }
+    div#pes form button {
+    border: none;
+    background: #20fa4f ;
+    margin-left: -10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 85px;
+    height: 85px;
+    outline: none;
+    }
+
+     #vol{
+        margin-left: -700px;
+        top: -30px;
+        font-size:40px ;
+    }
+
+    .voltar img{
+        position: absolute;
+        margin-left: -560px;
+        margin-top: 15px;
+        font-size:70px ;
+       
+    }
+
+
+}
+    
