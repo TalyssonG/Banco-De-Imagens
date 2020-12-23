@@ -66,6 +66,7 @@ div#voltar img {
     height: 20px;
 }
 
+
 @media (max-width: 500px) {
     header#header {
         padding-left: 10px;
@@ -73,4 +74,32 @@ div#voltar img {
     header#header img#logo {
         display: none;
     }
+}
+
+    div#pes form button {
+    border: none;
+    background: #20fa4f ;
+    margin-left: -10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 85px;
+    height: 85px;
+    outline: none;
+    }
+
+     #vol{
+        margin-left: -700px;
+        top: -30px;
+        font-size:40px ;
+    }
+
+    .voltar img{
+        position: absolute;
+        margin-left: -560px;
+        margin-top: 15px;
+        font-size:70px ;
+       
+    }
+
+
 }
