@@ -16,7 +16,7 @@
     </header>
     
     <main id="content">
-        <form action="#" method="POST">
+        <form action="salvarDados.php" method="GET" enctype="multipart/form-data">
             <h2>Enviar uma imagem:</h2>
 
             <label for="image-input">
@@ -38,12 +38,14 @@
             <div id="fields-group">
                 <div class="field">
                     <h3>Nome do proprietário:</h3>
+
                     <input required type="text" name="nomeUser" class="field-input">
                 </div>
 
                 <div class="field">
                     <h3>Nome da imagem:</h3>
-                    <input required type="text" name="urlImage" class="field-input">
+
+                    <input required type="text" name="title" class="field-input">
                 </div>
             </div>
 
@@ -55,7 +57,5 @@
     </main>
 
     <script src="script.js"></script>
-
-
 </body>
 </html>

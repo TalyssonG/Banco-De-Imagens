@@ -14,14 +14,14 @@ class DBConnect {
         $this->database = $database;
     }
 
-    public function execute_querry($sql) {
+    public function execute_querry($sql, $msg) {
         $this->connectionDataBase = new mysqli($this->host, $this->user, $this->password, $this->database);
 
         if ($this->connectionDataBase->connect_error) {
             echo "Failed to connect " . $this->host . ", " . $this->connectionDataBase->connect_error;
         }
 
-        $result = $this->connectionDataBase->query($sql);
+        $result = $this->connectionDataBase->query($sql) or die($msg);
         
         $this->connectionDataBase->close();
 

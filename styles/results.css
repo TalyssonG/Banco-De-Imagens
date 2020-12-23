@@ -1,96 +1,76 @@
-header#header {
-    max-width: 850px;
-    width: 70vw;
-    height: 80px;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-    margin: auto;
+body {
+    background: rgb(214, 214, 214);
+}
+
+header#header {
+    width: 100vw;
+    height: 80px;
+    background: #290636;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-body {
-    background: rgb(214, 214, 214);
-    padding: 0;
-    margin: 0;
-}
-
-div#top {
-    width: 100vw;
-    height: 80px;
-    background-color: #290636;
-   
-}
-
 header#header img {
-    width: 50%;
-    height: 50%;
-}
-
-header#header input {
-    width: 100%;
-    height: 30px;
-    border: none;
-    font-size: 1.2rem;
-    margin-right: 10px;
+    width: 20%;
 }
 
 div#pes {
-    width: 100%;
+    width: 50%;
 }
 
-div#pes form {
-    display: flex;
-}
-
-
-div#pes form input[type="search"] {
-    width: 100%;
-    height: 35px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    outline: none;
-    font-family: Arial;
-    padding-left: 10px;
-
-}
-
-div#pes form button {
+header#header input[type="search"] {
+    width: 70%;
+    height: 40px;
     border: none;
-    background: #20fa4f ;
-    margin-left: -10px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    width: 50px;
-    height: 35px;
-    outline: none;
-   
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 10px;
 }
 
-div#pes form button img {
+div#pes button {
+    width: 40px;
+    height: 40px;
+    margin-left: -3.5px;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #20fa4f;
+}
+
+div#pes button img {
+    width: 15px;
+    height: 15px;
+}
+
+div#voltar {
+    margin-right: 40px;
+}
+
+div#voltar a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: arial;
+}
+
+div#voltar img {
     width: 20px;
     height: 20px;
 }
 
-
-.voltar {
-    position: absolute;
-    margin-left: 980px;
-    bottom: 615px;
-    top: 20px;
-    width: 60px;
-    height: 50px;
-    padding: 5px;
-    cursor: pointer;
-    border-radius: 20px;
-    
-}
-
-#vol{
-    position: absolute;
-    font-size: 22px;
-    font-family: nunito;
-    top: -20px;
-    color:white;
-    margin-left: -69px;
+@media (max-width: 500px) {
+    header#header {
+        padding-left: 10px;
+    }
+    header#header img#logo {
+        display: none;
+    }
 }
